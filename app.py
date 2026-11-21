@@ -1,4 +1,3 @@
-%%writefile /content/spin_dashboard/app.py
 """Spin by OXXO - Customer value & Flip-Out executive dashboard (Streamlit)."""
 import json
 import os
