@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 st.set_page_config(page_title='Spin | CLTV & Flip-Out dashboard', page_icon=':credit_card:', layout='wide')
-DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dashboard_inputs')
 
 # Spin by OXXO palette
 PURPLE, PURPLE_DARK, ORANGE, LIGHT_BLUE = '#6A2BC4', '#4B1A9E', '#FF7A00', '#5EC4F0'
