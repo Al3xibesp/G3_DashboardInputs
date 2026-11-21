@@ -7,7 +7,7 @@ Streamlit dashboard for customer value, personas, Flip-Out targets, and model pe
 From this directory, create and activate a virtual environment, install dependencies, and start the app:
 
 ```powershell
-py -m venv .venv
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
