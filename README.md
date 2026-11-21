@@ -9,3 +9,9 @@ Decision-support dashboard in Streamlit built on top of customer segmentation an
 - **Personas:** Customer profiles and comparison views (Radar, Heatmap, Side by side).
 - **Target list:** Filtering by persona, decile, and capacity to select users and export a CSV.
 - **Model:** Active model metrics, SHAP drivers, persona performance, and experiment iterations.
+
+## How to Run
+1. Open `Evidence_4_Dashboard.ipynb` in **Google Colab**.
+2. Ensure the project folder is accessible under **MyDrive** (`/content/drive/MyDrive/...`).
+3. Run the cells in order to install dependencies, prepare the data, generate `app.py` inside `spin_dashboard`, and launch the Streamlit dashboard.
+
